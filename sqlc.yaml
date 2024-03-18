@@ -1,0 +1,7 @@
+version: "1"
+packages: 
+  - name: "repository"
+    path: "/repository"
+    emit_json_tags: true
+    schema: "/repository/query/schema.sql"
+    queries: "/repository/query/queries.sql"
